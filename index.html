@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 2A 6to Primaria</strong></h1>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 4A 6to Primaria</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="timer">⏱️ 00:00</span>
@@ -121,6 +121,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
+                                <p class="dialogue assistant">Preséntate brevemente. '¡Hola a todos! Soy [Tu Nombre] y estoy muy emocionado/a de explorar la robótica con ustedes hoy'</p>
                                 <p class="dialogue assistant">¡Hola, Navegantes! 👋 ¡Bienvenidos a una nueva misión! Hoy vamos a enseñarle al XGO a moverse de formas mucho más avanzadas. Antes de empezar, vamos a activar a nuestro amigo Xolo. Por favor, salúdenlo en el chat y díganle su nombre y cuáles son sus gustos e intereses. Por ejemplo 'Hola Xolo, soy Alex y me encantan los coches de carreras y la velocidad'.</p>
                             </div>
                         </div>
@@ -142,7 +143,7 @@
 
             <div class="activity-card" id="activity-2">
                 <h2>⚡ Actividad 2 A.I. GYM (Análisis Profundo) ⏰ 12 minutos</h2>
-                <p><strong>Propósito</strong> Introducir el concepto de "Gait Planning" y los comandos de Python para movimiento continuo, explicando la complejidad abstraída por la IA del robot.</p>
+                <p><strong>Propósito</strong> Introducir el concepto de "Planificación de la Marcha (Gait Planning)" y los comandos de Python para movimiento continuo, explicando la complejidad abstraída por la IA del robot.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
@@ -153,7 +154,7 @@
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
                                 <p class="dialogue assistant">¡Excelente! Ahora que todos estamos listos, vamos al A.I. GYM. Equipos, en la clase pasada hicimos que el XGO se moviera paso a paso con `xgo.move()`. Pero si queremos que recorra una distancia, ¿tenemos que escribir `xgo.move()` cien veces? ¡Sería muy tedioso! ¿Cómo logran los animales y los robots caminar o correr de forma continua y fluida? Hoy descubriremos cómo programar diferentes 'estilos de caminar'.</p>
-                                <p class="dialogue assistant">Para que la explicación sea personalizada para ustedes, escriban en el chat el siguiente comando: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero que me enseñes sobre Gait Planning y los comandos de marcha continua en Python'.</p>
+                                <p class="dialogue assistant">Para que la explicación sea personalizada para ustedes, escriban en el chat el siguiente comando: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero que me enseñes sobre Planificación de la Marcha (Gait Planning) y los comandos de marcha continua en Python'.</p>
                             </div>
                         </div>
                     </div>
@@ -165,7 +166,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Genial! Xolo les está explicando que 'Gait' es un patrón de movimiento, como caminar o trotar. Y que 'Gait Planning' es elegir el patrón correcto para cada tarea.</p>
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Genial! Xolo les está explicando que 'Gait' es un patrón de movimiento, como caminar o trotar. Y que la Planificación de la Marcha (Gait Planning) es elegir el patrón correcto para cada tarea. Gait se pronuncia 'gueit'. Piensen en ello como elegir si un personaje de videojuego camina, corre o trota.</p>
                                 <p class="dialogue assistant">También les está mostrando los nuevos comandos como `xgo.walk()`, `xgo.trot()` y el importantísimo `xgo.stop()`. Fíjense cómo les explica que `xgo.trot()` es una 'caja negra' que esconde algoritmos súper complejos. ¡Eso es el poder de la abstracción!</p>
                                 <p class="dialogue assistant">Si algo no queda claro, ¡recuerden que pueden preguntarle directamente a Xolo! Prueben con <br><strong>'¿Cuál es la diferencia entre `walk` y `trot`?'</strong><br><strong>'¿Qué significa la 'x' y la 'z' dentro de `xgo.walk()`?'</strong><br><strong>'¿Qué pasa si me olvido de poner `xgo.stop()`?'</strong></p>
                             </div>
@@ -198,6 +199,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
+                                <p class="dialogue assistant">(Al mostrar el código de ejemplo) Narra el código línea por línea. Di: 'Primero, importamos las herramientas. Luego, con xgo.walk, le ordenamos caminar hacia adelante. Con time.sleep, le damos una pausa de 2 segundos para que se mueva...'</p>
                                 <p class="dialogue assistant">Basado en esa petición, Xolo podría generar un código para ejecutar su idea. ¡Fíjense bien en cómo se estructura!</p>
                                 <p class="dialogue assistant">Para una vibe como "quiero que el robot camine en un pequeño cuadrado hacia la derecha", Xolo generaría este código:</p>
                                 <pre class="dialogue assistant" style="color: #d32f2f;"># Ruta: El Cuadrado
@@ -243,7 +245,7 @@ xgo.stop()</pre>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Excelente trabajo! Ahora que ya tienen sus ideas, reúnanse en sus equipos de 4 integrantes. Compartan las "rutas" y el código que obtuvieron de Xolo. Analicen el código juntos: ¿Qué creen que controla el primer número dentro de los corchetes en `xgo.walk()`? ¿Y el segundo? ¿Por qué `xgo.stop()` es tan crucial en estos códigos? ¿Qué pasaría si lo olvidamos? Discutan hasta que todos lo entiendan.</p>
+                                <p class="dialogue assistant">¡Genial! Ahora en equipos, miren el código. Pregunta 1: ¿Qué parte del código creen que le dice al robot 'cómo' moverse (walk o trot)? Pregunta 2: ¿Y qué parte le dice 'cuánto tiempo' dura el movimiento?</p>
                             </div>
                         </div>
                     </div>
@@ -292,6 +294,7 @@ xgo.stop()</pre>
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
                                 <p class="dialogue assistant">¡Muy bien, navegantes! Ya tienen los mapas y el código. Han hecho un trabajo de diseño excelente. En la próxima clase, se convertirán en ingenieros de prueba. Pondrán a prueba sus rutas, medirán la precisión de los giros y depurarán los recorridos hasta que el XGO obedezca sus planes a la perfección. ¡Prepárense para calibrar a sus robots!</p>
+                                <p class="dialogue assistant">Para terminar, compartan en una palabra cómo se sienten para la próxima clase práctica. ¿Emocionados, curiosos, un poco nerviosos? ¡Todas las respuestas son válidas!</p>
                             </div>
                         </div>
                     </div>
